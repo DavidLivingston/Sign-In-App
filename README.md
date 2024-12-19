@@ -24,7 +24,6 @@ The Sign-In App provides a simple login flow with error handling and validation.
 
 Check out the demo video to see the app in action:  
 ![Demo](TestExecution.gif)
-> Replace the above link (`dQw4w9WgXcQ`) with the actual YouTube video ID of your demo video.
 
 ---
 
@@ -109,11 +108,15 @@ Check out the demo video to see the app in action:
 - Tested on Android Emulator API Level 34.
 - Verified on multiple screen sizes for responsiveness.
 
-### **Automated Testing**
+### **Automated Espresso Tests**
 - Comprehensive test cases for:
-    - Login functionality.
-    - UI component validation.
-    - Navigation flows.
+1. Failed login
+2. Successful login
+3. Login successfully and test the following elements exist
+   a. Name Label = Emma Smith
+   b. Role label = Senior Test Analyst
+   c. Office = Pier Walk
+4. Login then sign out and check you’re back on the login screen
 
 ---
 
