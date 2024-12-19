@@ -1,0 +1,77 @@
+# Ignore build output directories
+/build/
+/app/build/
+/module_name/build/
+
+# Ignore IntelliJ IDEA/Android Studio project files
+.idea/
+/*.iml
+
+# Ignore Gradle files
+.gradle/
+/buildSrc/.gradle/
+.gradle/*
+
+# Ignore local properties and environment-specific files
+local.properties
+*.log
+*.temp
+*.backup
+*.orig
+*.patch
+
+# Ignore MacOS system files
+.DS_Store
+
+# Ignore Linux system files
+*.swp
+*.swo
+*~
+
+# Ignore Windows system files
+Thumbs.db
+ehthumbs.db
+
+# Ignore personal IDE configuration files
+.idea/libraries/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/dictionaries
+.idea/vcs.xml
+
+# Ignore cache directories
+.idea/caches/
+.idea/modules.xml
+.idea/modules/
+.idea/modules/local.properties/
+
+# Ignore Android generated files
+*.apk
+*.ap_
+*.dex
+*.class
+*.jar
+*.keystore
+*.jks
+
+# Ignore npm-related files (if applicable)
+node_modules/
+
+# Ignore coverage reports (if you use tools like JaCoCo)
+coverage/
+*.lcov
+*.lst
+
+# Ignore test result files
+test-results/
+
+# Ignore Proguard mapping files
+mapping.txt
+mapping/
+
+# Ignore crashlytics-related files
+crashlytics-build.properties
+
+# Ignore Firebase configuration
+google-services.json
